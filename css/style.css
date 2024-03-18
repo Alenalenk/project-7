@@ -303,7 +303,7 @@ h2.section-title {
   background: no-repeat -22px 0 url(../img/1mb.png)
 }
 .focus {
-  background-size: 771px 360px;
+  background-size: 100% 360px;
   padding-top: 5.3125rem;
   padding-bottom: 2.1875rem;
   line-height: 1.625;
@@ -814,7 +814,7 @@ h2.section-title {
     background: no-repeat url(../img/1.png)
   }
   .focus {
-    background-size: 1920px 1033px;
+    background-size: 100% 1033px;
     padding-bottom: 19.375rem
   }
   .focus__content {
