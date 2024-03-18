@@ -39,9 +39,10 @@
     script_button.addEventListener("click", changeImage);
     function changeImage(e) {
         const buttonActive = e.target.closest("#circle");
+        if (!buttonActive) return;
         for (let i of buttons) i.classList.remove("active");
         buttonActive.classList.add("active");
-        slideImage.style.backgroundImage = `url('../${buttonActive.dataset.src}')`;
+        slideImage.style.backgroundImage = `url('${buttonActive.dataset.src}')`;
         console.log(buttonActive.dataset.src);
     }
     window["FLS"] = true;
